@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "CE Programming",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:UserProfile}/BuildTools/Windows/CEdev/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-arm",
+            "compilerPath": "${env:UserProfile}\\BuildTools\\Windows\\CEdev\\bin\\ez80-clang.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${env:UserProfile}/BuildTools/Windows/CEdev/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
